@@ -1,3 +1,5 @@
+// this is code for qr check in 
+
 "use client";
 
 import { useEffect, useRef, useState } from "react";
@@ -5,7 +7,7 @@ import Link from "next/link";
 import { Html5Qrcode } from "html5-qrcode";
 
 const ATTENDANCE_URL =
-  "https://attendance-system-omega-beryl-95.vercel.app/attendance/check-in";
+  "https://4829-2404-4980-201-1fa6-80a9-351b-59a7-a4a9.ngrok-free.app/attendance/check-in";
 
 export default function ScanPage() {
   const scannerRef = useRef<Html5Qrcode | null>(null);
